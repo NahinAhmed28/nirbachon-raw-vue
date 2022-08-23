@@ -4,6 +4,8 @@ import  LoginPage from '../pages/auth/Login'
 import  RegisterPage from '../pages/auth/Register'
 import  HomePage from '../pages/Home'
 import  DashboardPage from '../pages/Dashboard'
+import  ResultPage from '../pages/Result'
+import  CenterResultPage from '../pages/CenterResult'
 
 
 const routes = [
@@ -31,6 +33,16 @@ const routes = [
         path: '/dashboard',
         name: 'DashboardPage',
         component: DashboardPage
+    },
+    {
+        path: '/result',
+        name: 'ResultPage',
+        component: ResultPage
+    },
+    {
+        path: '/center-result',
+        name: 'CenterResultPage',
+        component: CenterResultPage
     }
 
 ]
