@@ -1,5 +1,6 @@
 <template>
   <div>
+    Welcome page
     <RouterLink  to="/">
      Home
     </RouterLink>
