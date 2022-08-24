@@ -8,6 +8,7 @@ import  ResultPage from '../pages/Result'
 import  CenterResultPage from '../pages/CenterResult'
 
 
+
 const routes = [
     {
         path: '/',
