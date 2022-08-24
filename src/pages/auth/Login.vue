@@ -13,7 +13,7 @@
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-10">
           <div class="wrap d-md-flex">
-            <div class="img" style="background-image: url('public/custom/BdDigitalImage.JPG');"></div>
+            <div class="img"  :style="{ backgroundImage: `url(${publicPath}/custom/BdDigitalImage.JPG)` }"></div>
             <div class="login-wrap p-4 p-md-5">
 
               <form style="font-family: Arial, Baskerville, monospace; padding: 20%" action="#">
@@ -42,6 +42,11 @@
 <script>
 export default {
   name: 'LoginPage',
+  data: () =>{
+    return {
+      publicPath: process.env.VUE_APP_BASE_URL
+    }
+  },
   props: {
     msg: String
   }
