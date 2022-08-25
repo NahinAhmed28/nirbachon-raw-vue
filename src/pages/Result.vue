@@ -1,4 +1,5 @@
 <template>
+  <SidebarComponent />
   <HeaderComponent />
   <!-- start page content wrapper-->
   <div class="page-content-wrapper">
@@ -502,11 +503,12 @@
 
 <script>
 import HeaderComponent from "@/pages/pageComponents/Header";
+import SidebarComponent from "@/pages/pageComponents/Sidebar";
 
 export default {
   name: "ResultPage",
   components: {
-    // SidebarComponent
+    SidebarComponent,
     HeaderComponent
   }
 }

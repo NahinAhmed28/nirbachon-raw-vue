@@ -5,10 +5,10 @@
   <aside class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
       <div>
-        <img src="public/template/images/logo-icon-2.png" class="logo-icon" alt="logo icon">
+        <img src="/custom/design/img/eru-logo.png" class="logo-icon" alt="logo icon">
       </div>
       <div>
-        <h4 class="logo-text">SYN-UI</h4>
+
       </div>
       <div class="toggle-icon ms-auto"><ion-icon name="menu-sharp"></ion-icon>
       </div>
@@ -22,11 +22,11 @@
           <div class="menu-title">Maps</div>
         </a>
         <ul>
-          <li> <a href="index.html"><ion-icon name="ellipse-outline"></ion-icon>আসন</a>
+          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>আসন</a>
           </li>
-          <li> <a href="index2.html"><ion-icon name="ellipse-outline"></ion-icon>জেলা</a>
+          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>জেলা</a>
           </li>
-          <li> <a href="index3.html"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</a>
+          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</a>
           </li>
         </ul>
       </li>
