@@ -254,38 +254,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.sidebarFixed{
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  padding-top: 40px;
-  padding-right: 0px !important;
 
-}
-.sidebarFixed a{
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #4941be;
-  display: block;
-  text-align: left;
-}
-.sidebarFixed a:hover {
-  color: #8782ce;
-  text-decoration: none;
-}
-.list-group-item{
-  background-color: transparent !important;
-  border-right: none !important
-}
-
-.list-group-item:hover {
-  background-color: rgba(224, 208, 208, 0.76) !important;
-
-}
-
-</style>

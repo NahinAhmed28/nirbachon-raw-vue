@@ -6,9 +6,9 @@
         <div class="row justify-content-center">
           <div class="col-md-12 col-lg-10">
             <div class="wrap d-md-flex">
-              <div class="img"  :style="{ backgroundImage: `url(${publicPath}/custom/BdDigitalImage.JPG)` }"></div>
+<!--              <div class="img"  :style="{ backgroundImage: `url(custom/design/img/Capture.JPG)` }"></div>-->
+              <div  class="img" :style="{'background-image': 'url(/custom/design/img/Capture.JPG)'}"></div>
               <div class="login-wrap p-4 p-md-5">
-<!--<img src="public/custom/design/img/Capture.JPG">-->
                 <form style="font-family: Arial, Baskerville, monospace; padding: 20%" action="dashboard_agent.html">
                   <h2 style="text-align: center; font-size:x-large ; color:mediumpurple">ERU Login</h2>
 
@@ -40,7 +40,8 @@ export default {
   name: 'LoginPage',
   data: () =>{
     return {
-      publicPath: process.env.VUE_APP_BASE_URL
+      // publicPath: process.env.VUE_APP_BASE_URL
+      // publicPath: '/public/'
     }
   },
   props: {
@@ -48,36 +49,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-.img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
 
-.wrap {
-  width: 100%;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
-  -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24); }
-
-.img, .login-wrap {
-  width: 50%; }
-@media (max-width: 991.98px) {
-  .img, .login-wrap {
-    width: 100%; } }
-
-@media (max-width: 767.98px) {
-  .wrap .img {
-    height: 250px; } }
-
-.login-wrap {
-  position: relative;
-  background: #fff;
-}
-
-</style>
 
 
