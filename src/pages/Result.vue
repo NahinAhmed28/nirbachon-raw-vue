@@ -14,23 +14,23 @@
             </div>
             <div class="row2">
               <label for="ason2">প্রদানক্রিত ভোট</label>
-              <h6 id="ason2" style="float: right; "> ৭৪৬৪৫৬ </h6>
+              <h6 id="ason2" style="float: right; margin-right:-62px  "> ৭৪৬৪৫৬ </h6>
             </div>
             <div class="row3">
               <label for="ason3" style="">আওয়ামীলীগ</label>
-              <h6 id="ason3" style="float: right; margin-right: -50px"> ৭৪৫৬ </h6>
+              <h6 id="ason3" style="float: right; margin-right: -54px"> ৭৪৫৬ </h6>
             </div>
             <div class="row4">
               <label for="ason4" style="">বিএনপি</label>
-              <h6 id="ason4" style="float: right;"> ৭৪৫৬ </h6>
+              <h6 id="ason4" style="float: right;margin-right: 16px"> ৭৪৫৬ </h6>
             </div>
             <div class="row5">
               <label for="ason5" style="">জাতীয় পার্টি</label>
-              <h6 id="ason5" style="float: right;"> ৫৪৫৬ </h6>
+              <h6 id="ason5" style="float: right;margin-right: -50px"> ৫৪৫৬ </h6>
             </div>
             <div class="row6">
               <label for="ason6" >অন্যান্য</label>
-              <h6 id="ason6" style="float: right;"> ৬৪৫৬ </h6>
+              <h6 id="ason6" style="float: right;margin-right: 12px"> ৬৪৫৬ </h6>
             </div>
           </div>
         </div>
@@ -49,19 +49,19 @@
             </div>
             <div class="row2">
               <label for="inputason12">আওয়ামীলীগ</label>
-              <h6 id="inputason12" style="float: right; margin-right: -45px"> ৭৪৬৪৫৬ </h6>
+              <h6 id="inputason12" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
             </div>
             <div class="row3">
               <label for="inputason13">বিএনপি</label>
-              <h6 id="inputason13" style="float: right; margin-right: -52px"> ৭৪৬৪৫৬ </h6>
+              <h6 id="inputason13" style="float: right; margin-right: -72px"> ৭৪৬৪৫৬ </h6>
             </div>
             <div class="row3">
               <label for="inputason14">জাতীয় পার্টি</label>
-              <h6 id="inputason14" style="float: right; margin-right: 0px"> ৭৪৬৪৫৬ </h6>
+              <h6 id="inputason14" style="float: right; margin-right: -7px"> ৭৪৬৪৫৬ </h6>
             </div>
             <div class="row5">
               <label for="inputason15">অন্যান্য</label>
-              <h6 id="inputason15" style="float: right; margin-right: -51px"> ৭৪৬৪৫৬ </h6>
+              <h6 id="inputason15" style="float: right; margin-right: -73px"> ৭৪৬৪৫৬ </h6>
             </div>
           </div>
 
@@ -451,39 +451,38 @@
 
     <h3 style="padding: 2rem 0 1rem 0">কেন্দ্রের সর্বশেষ প্রকাশিত ফলাফল</h3>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card" style="margin-top: 3px;height:230px">
+        <div class="col-md-4">
+          <div class="card" style="margin-top: 3px;height:230px">
 
-          <h5 class="card-title"
-              style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
-              class="glyphicon glyphicon-info-sign"></span>কেন্দ্রের হালনাগাদ </h5>
-          <div style="padding: 20px; font-size:12px ">
-            <div class="row1">
-              <label for="inputason21">মোট কেন্দ্র</label>
-              <h6 id="inputason21" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
+            <h5 class="card-title"
+                style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
+                class="glyphicon glyphicon-info-sign"></span>কেন্দ্রের হালনাগাদ </h5>
+            <div style="padding: 20px; font-size:12px ">
+              <div class="row1">
+                <label for="inputason21">মোট কেন্দ্র</label>
+                <h6 id="inputason21" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
+              </div>
+              <div class="row2">
+                <label for="inputason22">প্রাপ্ত কেন্দ্র</label>
+                <h6 id="inputason22" style="float: right; margin-right: -68px"> ৭৪৬৪৫৬ </h6>
+              </div>
+              <div class="row3">
+                <label for="inputason23">অপ্রকাশিত কেন্দ্র</label>
+                <h6 id="inputason23" style="float: right; margin-right: -70px"> ৭৪৬৪৫৬ </h6>
+              </div>
+              <div class="row3">
+                <label for="inputason24">স্থাপিত কেন্দ্র</label>
+                <h6 id="inputason24" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
+              </div>
             </div>
-            <div class="row2">
-              <label for="inputason22">প্রাপ্ত কেন্দ্র</label>
-              <h6 id="inputason22" style="float: right; margin-right: -45px"> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row3">
-              <label for="inputason23">অপ্রকাশিত কেন্দ্র</label>
-              <h6 id="inputason23" style="float: right; margin-right: -52px"> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row3">
-              <label for="inputason24">স্থাপিত কেন্দ্র</label>
-              <h6 id="inputason24" style="float: right; margin-right: 0px"> ৭৪৬৪৫৬ </h6>
-            </div>
+
           </div>
-
         </div>
-      </div>
-      <div class="col-md-8">
-        <!--pie chart-->
-<!--        <div id="chart2"></div>-->
+        <div class="col-md-8">
+          <!--pie chart-->
+          <!--      <div id="chart"></div>-->
       </div>
     </div>
-
     <div style="padding-top: 5rem">
       <!--bar chart-->
 
