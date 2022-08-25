@@ -246,7 +246,7 @@
 
 <script>
 export default {
-  name: 'HomePage',
+  name: 'DashboardAgent',
   props: {
     msg: String
   }

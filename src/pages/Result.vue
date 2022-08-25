@@ -1,7 +1,7 @@
 <template>
   <div class="container" style="padding-top: 2rem;">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-top: 15px">
         <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
         <div class="card" style="height:230px ">
           <h5 class="card-title"
@@ -10,26 +10,26 @@
           <div style="padding: 15px;">
             <div class="row1">
               <label for="ason1">মোট ভোটার</label>
-              <h6 id="ason1" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
+              <h6 id="ason1" style="float: right; "> ৪৩২৫৬ </h6>
             </div>
             <div class="row2">
               <label for="ason2">প্রদানক্রিত ভোট</label>
-              <h6 id="ason2" style="float: right; margin-right: -45px"> ৭৪৬৪৫৬ </h6>
+              <h6 id="ason2" style="float: right; "> ৭৪৬৪৫৬ </h6>
             </div>
             <div class="row3">
-              <label for="ason3" style="margin-left:20px ">আওয়ামীলীগ</label>
+              <label for="ason3" style="">আওয়ামীলীগ</label>
               <h6 id="ason3" style="float: right; margin-right: -50px"> ৭৪৫৬ </h6>
             </div>
             <div class="row4">
-              <label for="ason4" style="margin-left:20px ">বিএনপি</label>
-              <h6 id="ason4" style="float: right; margin-right: 3px"> ৭৪৫৬ </h6>
+              <label for="ason4" style="">বিএনপি</label>
+              <h6 id="ason4" style="float: right;"> ৭৪৫৬ </h6>
             </div>
             <div class="row5">
-              <label for="ason5" style="margin-left:20px ">জাতীয় পার্টি</label>
-              <h6 id="ason5" style="float: right; margin-right: -35px"> ৫৪৫৬ </h6>
+              <label for="ason5" style="">জাতীয় পার্টি</label>
+              <h6 id="ason5" style="float: right;"> ৫৪৫৬ </h6>
             </div>
             <div class="row6">
-              <label for="ason6" style="margin-left:20px ">অন্যান্য</label>
+              <label for="ason6" >অন্যান্য</label>
               <h6 id="ason6" style="float: right;"> ৬৪৫৬ </h6>
             </div>
           </div>

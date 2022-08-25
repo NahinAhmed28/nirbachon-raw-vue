@@ -1,11 +1,9 @@
 <template>
   <div>
     Welcome page
-    <RouterLink  to="/">
-     Home
-    </RouterLink>
-    <RouterLink to="/dashboard">
-      DashBoard
+
+    <RouterLink to="/DashboardAgent">
+      DashBoard Agent
     </RouterLink>
     <RouterLink to="/login">
       Login

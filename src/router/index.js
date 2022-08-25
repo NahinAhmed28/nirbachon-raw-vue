@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import  LandingWelcome from '../pages/Welcome'
 import  LoginPage from '../pages/auth/Login'
 import  RegisterPage from '../pages/auth/Register'
-import  HomePage from '../pages/Home'
-import  DashboardPage from '../pages/Dashboard'
+import  DashboardAgentPage from '../pages/DashboardAgent'
+import  DashboardStaffPage from '../pages/DashboardStaff'
 import  ResultPage from '../pages/Result'
 import  CenterResultPage from '../pages/CenterResult'
 
@@ -26,14 +26,14 @@ const routes = [
         component: RegisterPage
     },
     {
-        path: '/home',
-        name: 'HomePage',
-        component: HomePage
+        path: '/dashboardAgent',
+        name: 'DashboardAgentPage',
+        component: DashboardAgentPage
     },
     {
-        path: '/dashboard',
-        name: 'DashboardPage',
-        component: DashboardPage
+        path: '/dashboardStaff',
+        name: 'DashboardStaffPage',
+        component: DashboardStaffPage
     },
     {
         path: '/result',
