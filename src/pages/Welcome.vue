@@ -10,6 +10,12 @@
     <RouterLink to="/login">
       Login
     </RouterLink>
+    <RouterLink to="/home">
+      Home
+    </RouterLink>
+    <RouterLink to="/result">
+      Result
+    </RouterLink>
     <RouterLink to="/register">
       Register
     </RouterLink>
