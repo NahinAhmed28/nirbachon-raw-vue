@@ -2,14 +2,14 @@
   <div>
     Welcome page
 
-    <RouterLink to="/DashboardAgent">
-      DashBoard Agent
+    <RouterLink to="/dashboardAgent">
+      DashBoard-Agent
     </RouterLink>
     <RouterLink to="/login">
       Login
     </RouterLink>
-    <RouterLink to="/home">
-      Home
+    <RouterLink to="/dashboardStaff">
+      DashBoard-Staff
     </RouterLink>
     <RouterLink to="/result">
       Result

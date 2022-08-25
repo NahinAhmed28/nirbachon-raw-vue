@@ -1,5 +1,10 @@
 <template>
-  <div class="container" style="padding-top: 2rem;">
+  <HeaderComponent />
+  <!-- start page content wrapper-->
+  <div class="page-content-wrapper">
+    <!-- start page content-->
+    <div class="page-content">
+      <div class="container" style="padding-top: 2rem;">
     <div class="row">
       <div class="col-md-4" style="margin-top: 15px">
         <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
@@ -480,7 +485,9 @@
         </div>
         <div class="col-md-8">
           <!--pie chart-->
-          <!--      <div id="chart"></div>-->
+          <div class="chart-container5">
+            <canvas id="chart4"></canvas>
+          </div>
       </div>
     </div>
     <div style="padding-top: 5rem">
@@ -489,11 +496,19 @@
 <!--      <div id="chart"></div>-->
     </div>
   </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import HeaderComponent from "@/pages/pageComponents/Header";
+
 export default {
-  name: "ResultPage"
+  name: "ResultPage",
+  components: {
+    // SidebarComponent
+    HeaderComponent
+  }
 }
 </script>
 
