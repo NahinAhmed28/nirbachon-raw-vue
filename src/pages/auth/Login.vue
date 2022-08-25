@@ -6,7 +6,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 col-lg-10">
             <div class="wrap d-md-flex">
-              <div class="img" style="background-image: url('../../../public/custom/design/img/Capture.JPG');"></div>
+              <div class="img"  :style="{ backgroundImage: `url(${publicPath}/custom/BdDigitalImage.JPG)` }"></div>
               <div class="login-wrap p-4 p-md-5">
 <!--<img src="public/custom/design/img/Capture.JPG">-->
                 <form style="font-family: Arial, Baskerville, monospace; padding: 20%" action="dashboard_agent.html">
