@@ -1,6 +1,11 @@
 <template>
   <div class="my-st">
 
+
+  <WrapperComponent>
+    <SidebarComponent/>
+    <HeaderComponent />
+
     <RouterLink to="/dashboardAgent">
       DashBoard-Agent
     </RouterLink>
@@ -17,14 +22,36 @@
       Register
     </RouterLink>
 
+
+    <zilla-page />
+  </WrapperComponent>
+
+
+
   </div>
+
+
 </template>
 
 <script>
+import WrapperComponent from "@/pages/pageComponents/Wrapper";
+import SidebarComponent from "@/pages/pageComponents/Sidebar";
+import HeaderComponent from "@/pages/pageComponents/Header";
+import sideb from "@/pages/sidebar";
+import ZillaPage from "@/pages/maps/ZillaPage";
+
 export default {
   name: 'LandingWelcome',
   props: {
     msg: String
+  },components: {
+    ZillaPage,
+    WrapperComponent,
+    SidebarComponent,
+    HeaderComponent,
+  },
+  mounted() {
+    sideb()
   }
 }
 </script>

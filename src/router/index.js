@@ -6,6 +6,8 @@ import  DashboardAgentPage from '../pages/DashboardAgent'
 import  DashboardStaffPage from '../pages/DashboardStaff'
 import  ResultPage from '../pages/Result'
 import  CenterResultPage from '../pages/CenterResult'
+import  Zillapage from '../pages/maps/ZillaPage'
+import  DivisionPage from '../pages/maps/DivisionPage'
 
 
 
@@ -44,6 +46,16 @@ const routes = [
         path: '/center-result',
         name: 'CenterResultPage',
         component: CenterResultPage
+    },
+    {
+        path: '/zillapage',
+        name: 'Zillapage',
+        component: Zillapage
+    },
+    {
+        path: '/divisionpage',
+        name: 'Divisionpage',
+        component: DivisionPage
     }
 
 ]
