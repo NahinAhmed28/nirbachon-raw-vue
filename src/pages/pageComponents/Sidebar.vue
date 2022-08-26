@@ -23,12 +23,14 @@
           <div class="menu-title">ম্যাপস</div>
         </a>
         <ul>
-          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>আসন</a>
+          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</a>
           </li>
           <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>জেলা</a>
           </li>
-          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</a>
+          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>আসন</a>
           </li>
+
+
         </ul>
       </li>
       <li>
@@ -68,7 +70,6 @@
 <script>
 export default {
   name: "SidebarComponent",
-
 }
 </script>
 

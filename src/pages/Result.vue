@@ -1,4 +1,5 @@
 <template>
+  <WrapperComponent>
   <SidebarComponent/>
   <HeaderComponent/>
   <!-- start page content wrapper-->
@@ -499,19 +500,23 @@
       </div>
     </div>
   </div>
+  </WrapperComponent>
 </template>
 
 <script>
 
 import HeaderComponent from "@/pages/pageComponents/Header";
 import SidebarComponent from "@/pages/pageComponents/Sidebar";
+import WrapperComponent from "@/pages/pageComponents/Wrapper"
 import sideb from "@/pages/sidebar";
 
 export default {
   name: "ResultPage",
   components: {
+    WrapperComponent,
     SidebarComponent,
-    HeaderComponent
+    HeaderComponent,
+
   },
   mounted() {
     sideb()

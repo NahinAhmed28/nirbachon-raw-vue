@@ -57,9 +57,9 @@ ion-icon {
 }
 
 .wrapper .page-content-wrapper {
-
-    margin-left: 260px;
-    margin-top: 65px;
+    margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 65px;
     padding-bottom: 20px;
     transition: .3s all;
 
