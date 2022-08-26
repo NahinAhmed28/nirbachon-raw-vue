@@ -8,11 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "apexcharts": "^3.35.5",
     "core-js": "^3.8.3",
     "jquery": "^3.6.0",
     "metismenu": "^3.0.7",
     "vue": "^3.2.13",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vue3-apexcharts": "^1.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

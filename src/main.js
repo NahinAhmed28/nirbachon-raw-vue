@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-require('metismenu');
 
-createApp(App).use(router).mount('#app')
+
+
+require('metismenu');
+require('apexcharts');
+
+ createApp(App).use(router).mount('#app')

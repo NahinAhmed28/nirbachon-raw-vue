@@ -488,19 +488,20 @@
           </div>
           <div class="col-md-8">
             <!--pie chart-->
-            <div class="chart-container5">
-              <canvas id="chart4"></canvas>
-            </div>
+            <apexchart type="pie" width="380" :options="chartOptions" :series="series"></apexchart>
+
           </div>
         </div>
         <div style="padding-top: 5rem">
-          <!--bar chart-->
+          <apexchart type="bar" height="350" :options="chartOptions2" :series="series2"></apexchart>
 
-          <!--      <div id="chart"></div>-->
+
+
         </div>
       </div>
     </div>
   </div>
+
   </WrapperComponent>
 </template>
 
@@ -511,16 +512,103 @@ import SidebarComponent from "@/pages/pageComponents/Sidebar";
 import WrapperComponent from "@/pages/pageComponents/Wrapper"
 import sideb from "@/pages/sidebar";
 
+import VueApexCharts from "vue3-apexcharts";
+
+
 export default {
+  data: function() {
+    return {
+      series: [44, 55, 13, 43, 22],
+      colors: [ // this array contains different color code for each data
+        "#33b2df",
+        "#546E7A",
+        "#d4526e",
+        "#13d8aa",
+        "#A5978B",
+        "#2b908f",
+        "#f9a3a4",
+        "#90ee7e",
+        "#f48024",
+        "#69d2e7"
+      ],
+      chartOptions: {
+        chart: {
+          width: 380,
+          type: 'pie',
+        },
+        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+      },
+      series2: [{
+        data: [21, 22, 10, 28, 16, 21, 13, 30]
+      }],
+      chartOptions2: {
+        chart: {
+          height: 350,
+          type: 'bar',
+          events: {
+            // click: function(chart, w, e) {
+            //   // console.log(chart, w, e)
+            // }
+          }
+        },
+        colors: this.colors,
+        plotOptions: {
+          bar: {
+            columnWidth: '45%',
+            distributed: true,
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        legend: {
+          show: false
+        },
+        xaxis: {
+          categories: [
+            ['John', 'Doe'],
+            ['Joe', 'Smith'],
+            ['Jake', 'Williams'],
+            'Amber',
+            ['Peter', 'Brown'],
+            ['Mary', 'Evans'],
+            ['David', 'Wilson'],
+            ['Lily', 'Roberts'],
+          ],
+          labels: {
+            style: {
+              colors: this.colors,
+              fontSize: '12px'
+            }
+          }
+        }
+      },
+
+    }
+  },
   name: "ResultPage",
   components: {
     WrapperComponent,
     SidebarComponent,
     HeaderComponent,
+    apexchart: VueApexCharts,
 
   },
   mounted() {
-    sideb()
+    sideb();
+
+
   }
 }
 </script>
