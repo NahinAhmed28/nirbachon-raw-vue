@@ -4,13 +4,16 @@
 
   <aside class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
-      <RouterLink to="/">
 
-        <img src="/custom/design/img/eru-logo.png" class="logo-icon" alt="logo icon">
-      </RouterLink>
       <div>
-
+        <RouterLink to="/">
+        <img src="/custom/design/img/eru-logo.png" class="logo-icon" alt="logo icon">
+        </RouterLink>
       </div>
+      <div>
+        <img src="/custom/design/img/eru-logo-text.png" style="width: 80%" alt="logo icon">
+      </div>
+
       <div class="toggle-icon ms-auto"><ion-icon name="menu-sharp"></ion-icon>
       </div>
     </div>
