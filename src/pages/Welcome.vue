@@ -37,8 +37,9 @@
 import WrapperComponent from "@/pages/pageComponents/Wrapper";
 import SidebarComponent from "@/pages/pageComponents/Sidebar";
 import HeaderComponent from "@/pages/pageComponents/Header";
-import sideb from "@/pages/sidebar";
 import ZillaPage from "@/pages/maps/ZillaPage";
+import sideb from "@/pages/sidebar";
+
 
 export default {
   name: 'LandingWelcome',
