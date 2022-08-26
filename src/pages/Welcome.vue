@@ -23,7 +23,7 @@
     </RouterLink>
 
 
-    <zilla-page />
+    <division-page/>
   </WrapperComponent>
 
 
@@ -37,7 +37,8 @@
 import WrapperComponent from "@/pages/pageComponents/Wrapper";
 import SidebarComponent from "@/pages/pageComponents/Sidebar";
 import HeaderComponent from "@/pages/pageComponents/Header";
-import ZillaPage from "@/pages/maps/ZillaPage";
+// import ZillaPage from "@/pages/maps/ZillaPage";
+import DivisionPage from "@/pages/maps/DivisionPage";
 import sideb from "@/pages/sidebar";
 
 
@@ -46,10 +47,11 @@ export default {
   props: {
     msg: String
   },components: {
-    ZillaPage,
+    // ZillaPage,
     WrapperComponent,
     SidebarComponent,
     HeaderComponent,
+    DivisionPage
   },
   mounted() {
     sideb()
