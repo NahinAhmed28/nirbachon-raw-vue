@@ -4,9 +4,10 @@
 
   <aside class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
-      <div>
+      <RouterLink to="/">
+
         <img src="/custom/design/img/eru-logo.png" class="logo-icon" alt="logo icon">
-      </div>
+      </RouterLink>
       <div>
 
       </div>

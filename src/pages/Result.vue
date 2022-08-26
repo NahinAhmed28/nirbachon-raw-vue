@@ -546,14 +546,6 @@ export default {
         }))
       })
 
-
-
-
-
-
-
-
-
       $(".btn-mobile-filter").on("click", function() {
         $(".filter-sidebar").removeClass("d-none");
       }),
