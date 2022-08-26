@@ -1,6 +1,5 @@
 <template>
-  <div>
-    Welcome page
+  <div class="my-st">
 
     <RouterLink to="/dashboardAgent">
       DashBoard-Agent
@@ -30,4 +29,9 @@ export default {
 }
 </script>
 
-
+<style>
+ .my-st{
+   display: flex;
+   justify-content: space-around;
+ }
+</style>
