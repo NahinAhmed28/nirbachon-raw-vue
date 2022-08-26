@@ -5,8 +5,6 @@
   <!-- start page content wrapper-->
   <div class="page-content-wrapper">
     <!-- start page content-->
-    <div class="page-content">
-        <div class="row">
     <div class="col-md-8">
       <div class="container">
         <h2 style="padding-top: 2rem">ভোটের ফলাফল জমা দিন</h2>
@@ -176,9 +174,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-  </div>
     </div>
   </div>
   </WrapperComponent>
