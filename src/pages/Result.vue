@@ -7,7 +7,7 @@
     <!-- start page content-->
     <div class="page-content">
       <div class="container" style="padding-top: 2rem;">
-        <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
+        <h2 style="margin-bottom: 25px">আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
         <div class="row">
           <div class="col-md-4" >
 
@@ -518,7 +518,7 @@ import VueApexCharts from "vue3-apexcharts";
 export default {
   data: function() {
     return {
-      series: [44, 55, 13, 43, 22],
+      series: [44, 55, 13],
       colors: [ // this array contains different color code for each data
         "#33b2df",
         "#546E7A",
@@ -536,12 +536,15 @@ export default {
           width: 380,
           type: 'pie',
         },
-        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        legend: {
+          position: 'bottom'
+        },
+        labels: ['্রকাশিত কেন্দ্র', 'স্থাপিত কেন্দ্র', 'অপ্রকাশিত কেন্দ্র'],
         responsive: [{
           breakpoint: 480,
           options: {
             chart: {
-              width: 200
+              width: 350
             },
             legend: {
               position: 'bottom'
@@ -550,7 +553,7 @@ export default {
         }]
       },
       series2: [{
-        data: [21, 22, 10, 28, 16, 21, 13, 30]
+        data:  [2.3, 3.1, 4.0, 10.1]
       }],
       chartOptions2: {
         chart: {
@@ -573,19 +576,10 @@ export default {
           enabled: false
         },
         legend: {
-          show: false
+          show: true
         },
         xaxis: {
-          categories: [
-            ['John', 'Doe'],
-            ['Joe', 'Smith'],
-            ['Jake', 'Williams'],
-            'Amber',
-            ['Peter', 'Brown'],
-            ['Mary', 'Evans'],
-            ['David', 'Wilson'],
-            ['Lily', 'Roberts'],
-          ],
+          categories: ['আওয়ামীলীগ', 'বিএনপি', 'জাতীয় পার্টি', 'অন্যান্য'],
           labels: {
             style: {
               colors: this.colors,
