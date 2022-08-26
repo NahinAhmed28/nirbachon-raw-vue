@@ -319,7 +319,7 @@ ion-icon {
 @media screen and (min-width: 1400px) {
 
     .wrapper.toggled .page-content-wrapper {
-        padding: 0 9rem 2em 9rem;
+        padding: 0 2rem 2em 6rem;
     }
 }
 
