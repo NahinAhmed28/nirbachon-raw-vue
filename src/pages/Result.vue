@@ -1,85 +1,85 @@
 <template>
-  <SidebarComponent />
-  <HeaderComponent />
+  <SidebarComponent/>
+  <HeaderComponent/>
   <!-- start page content wrapper-->
   <div class="page-content-wrapper">
     <!-- start page content-->
     <div class="page-content">
       <div class="container" style="padding-top: 2rem;">
-    <div class="row">
-      <div class="col-md-4" style="margin-top: 15px">
-        <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
-        <div class="card" style="height:230px ">
-          <h5 class="card-title"
-              style="background:#5f57c9;color: white; margin-top: 0px;padding: 10px;font-weight: bold ">
-            <span class="glyphicon glyphicon-info-sign"></span> আসনের হালনাগাদ</h5>
-          <div style="padding: 15px;">
-            <div class="row1">
-              <label for="ason1">মোট ভোটার</label>
-              <h6 id="ason1" style="float: right; "> ৪৩২৫৬ </h6>
-            </div>
-            <div class="row2">
-              <label for="ason2">প্রদানক্রিত ভোট</label>
-              <h6 id="ason2" style="float: right; margin-right:-62px  "> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row3">
-              <label for="ason3" style="">আওয়ামীলীগ</label>
-              <h6 id="ason3" style="float: right; margin-right: -54px"> ৭৪৫৬ </h6>
-            </div>
-            <div class="row4">
-              <label for="ason4" style="">বিএনপি</label>
-              <h6 id="ason4" style="float: right;margin-right: 16px"> ৭৪৫৬ </h6>
-            </div>
-            <div class="row5">
-              <label for="ason5" style="">জাতীয় পার্টি</label>
-              <h6 id="ason5" style="float: right;margin-right: -50px"> ৫৪৫৬ </h6>
-            </div>
-            <div class="row6">
-              <label for="ason6" >অন্যান্য</label>
-              <h6 id="ason6" style="float: right;margin-right: 12px"> ৬৪৫৬ </h6>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card" style="margin-top: 61px ;height:230px">
-
-          <h5 class="card-title"
-              style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
-              class="glyphicon glyphicon-info-sign"></span> দলভিত্তিক কেন্দ্রের অবস্থান </h5>
-          <div style="padding: 20px">
-            <div class="row1">
-              <label for="inputason11">সর্বমোট কেন্দ্র</label>
-              <h6 id="inputason11" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
-            </div>
-            <div class="row2">
-              <label for="inputason12">আওয়ামীলীগ</label>
-              <h6 id="inputason12" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row3">
-              <label for="inputason13">বিএনপি</label>
-              <h6 id="inputason13" style="float: right; margin-right: -72px"> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row3">
-              <label for="inputason14">জাতীয় পার্টি</label>
-              <h6 id="inputason14" style="float: right; margin-right: -7px"> ৭৪৬৪৫৬ </h6>
-            </div>
-            <div class="row5">
-              <label for="inputason15">অন্যান্য</label>
-              <h6 id="inputason15" style="float: right; margin-right: -73px"> ৭৪৬৪৫৬ </h6>
+        <div class="row">
+          <div class="col-md-4" style="margin-top: 15px">
+            <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
+            <div class="card" style="height:230px ">
+              <h5 class="card-title"
+                  style="background:#5f57c9;color: white; margin-top: 0px;padding: 10px;font-weight: bold ">
+                <span class="glyphicon glyphicon-info-sign"></span> আসনের হালনাগাদ</h5>
+              <div style="padding: 15px;">
+                <div class="row1">
+                  <label for="ason1">মোট ভোটার</label>
+                  <h6 id="ason1" style="float: right; "> ৪৩২৫৬ </h6>
+                </div>
+                <div class="row2">
+                  <label for="ason2">প্রদানক্রিত ভোট</label>
+                  <h6 id="ason2" style="float: right; margin-right:-62px  "> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row3">
+                  <label for="ason3" style="">আওয়ামীলীগ</label>
+                  <h6 id="ason3" style="float: right; margin-right: -54px"> ৭৪৫৬ </h6>
+                </div>
+                <div class="row4">
+                  <label for="ason4" style="">বিএনপি</label>
+                  <h6 id="ason4" style="float: right;margin-right: 16px"> ৭৪৫৬ </h6>
+                </div>
+                <div class="row5">
+                  <label for="ason5" style="">জাতীয় পার্টি</label>
+                  <h6 id="ason5" style="float: right;margin-right: -50px"> ৫৪৫৬ </h6>
+                </div>
+                <div class="row6">
+                  <label for="ason6">অন্যান্য</label>
+                  <h6 id="ason6" style="float: right;margin-right: 12px"> ৬৪৫৬ </h6>
+                </div>
+              </div>
             </div>
           </div>
 
-        </div>
-      </div>
-      <div class="col-md-4">
+          <div class="col-md-4">
+            <div class="card" style="margin-top: 61px ;height:230px">
 
-        <!--                <h4 style="text-align: center;font-weight: bold">আসন/<br>কেন্দ্র ভিত্তিক ম্যাপ</h4>-->
-        <!--svg map-->
-        <svg version="1.1" id="detailsPageMap" xmlns="http://www.w3.org/2000/svg"
-             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 269"
-             style="enable-background:new 0 0 300 269;" xml:space="preserve">
+              <h5 class="card-title"
+                  style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
+                  class="glyphicon glyphicon-info-sign"></span> দলভিত্তিক কেন্দ্রের অবস্থান </h5>
+              <div style="padding: 20px">
+                <div class="row1">
+                  <label for="inputason11">সর্বমোট কেন্দ্র</label>
+                  <h6 id="inputason11" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
+                </div>
+                <div class="row2">
+                  <label for="inputason12">আওয়ামীলীগ</label>
+                  <h6 id="inputason12" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row3">
+                  <label for="inputason13">বিএনপি</label>
+                  <h6 id="inputason13" style="float: right; margin-right: -72px"> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row3">
+                  <label for="inputason14">জাতীয় পার্টি</label>
+                  <h6 id="inputason14" style="float: right; margin-right: -7px"> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row5">
+                  <label for="inputason15">অন্যান্য</label>
+                  <h6 id="inputason15" style="float: right; margin-right: -73px"> ৭৪৬৪৫৬ </h6>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+
+            <!--                <h4 style="text-align: center;font-weight: bold">আসন/<br>কেন্দ্র ভিত্তিক ম্যাপ</h4>-->
+            <!--svg map-->
+            <svg version="1.1" id="detailsPageMap" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 269"
+                 style="enable-background:new 0 0 300 269;" xml:space="preserve">
 <a href="../seat/224">
 <polyline id="seat_224" class="st0" points="57.5,130.6 58.4,130.6 57.5,130.6 57.5,129.8 56.7,129.8 54.9,129.8 54.9,130.6 54.9,129.8 54,130.6
 	53.2,130.6 53.2,129.8 53.2,130.6 52.3,130.6 51.4,129.8 51.4,128.9 50.5,128.9 50.5,128 49.6,128 48.7,128.9 47.9,128.9
@@ -161,7 +161,7 @@
 <text transform="matrix(1 0 0 1 66.5039 83.335)" class="st1 st2">১</text>
 </g>
 </a>
-          <a href="../seat/225">
+              <a href="../seat/225">
 <polyline id="seat_225" class="st0" points="158.9,150.9 159.7,150.9 159.7,151.8 163.2,151.8 163.2,152.7 164.1,152.7 165,153.5 165.9,153.5
 	165.9,154.4 167.7,154.4 167.7,153.5 167.7,151.8 168.5,151.8 168.5,153.5 169.4,153.5 171.2,153.5 171.2,152.7 173.8,152.7
 	173.8,153.5 174.7,153.5 174.7,155.3 174.7,154.4 175.5,154.4 175.5,153.5 176.5,153.5 176.5,152.7 179.1,152.7 179.1,151.8
@@ -227,11 +227,11 @@
 	150,142.1 150,143 150.9,143.9 150.9,147.4 151.8,147.4 153.6,147.4 153.6,146.5 154.4,146.5 154.4,145.6 154.4,146.5 155.3,146.5
 	157.9,146.5 157.9,145.6 162.4,145.6 162.4,146.5 162.4,147.4 161.5,147.4 161.5,148.3 160.6,148.3 159.7,148.3 159.7,149.2
 	158.9,149.2 158.9,150 158.9,150.9 "></polyline>
-            <g>
+                <g>
 <text transform="matrix(1 0 0 1 139.9062 186.9551)" class="st1 st2">২</text>
 </g>
 </a>
-          <a href="../seat/226">
+              <a href="../seat/226">
 <polyline id="seat_226" class="st0" points="262.8,186.1 262.8,187.9 261.9,187.9 261.9,188.8 262.8,188.8 262.8,190.6 263.6,190.6 263.6,191.4
 	264.5,191.4 264.5,192.3 265.4,192.3 265.4,193.2 266.3,193.2 266.3,194.1 265.4,194.1 265.4,194.9 266.3,194.9 266.3,197.6
 	265.4,197.6 265.4,196.7 264.5,196.7 263.6,196.7 263.6,195.8 262.8,195.8 261.9,195.8 261.9,196.7 261,196.7 260.1,197.6
@@ -318,11 +318,11 @@
 	257.5,173.8 257.5,174.7 258.4,174.7 258.4,178.2 259.3,178.2 260.1,178.2 260.1,177.3 261,177.3 261,176.5 261,178.2 261,177.3
 	262.8,177.3 262.8,178.2 263.6,178.2 263.6,179.1 265.4,179.1 265.4,180 265.4,181.8 265.4,180.8 267.2,180.8 267.2,181.8
 	267.2,182.6 268.1,182.6 267.2,182.6 267.2,183.5 266.3,183.5 266.3,184.4 266.3,186.1 265.4,186.1 262.8,186.1 "></polyline>
-            <g>
+                <g>
 <text transform="matrix(1 0 0 1 211.1377 194.9531)" class="st1 st2">৩</text>
 </g>
 </a>
-          <a href="../seat/227">
+              <a href="../seat/227">
 <polyline id="seat_227" class="st0" points="139.5,89.2 139.5,90.2 138.6,90.2 138.6,88.4 137.7,88.4 137.7,87.5 136.8,87.5 136,87.5 136,88.4
 	135.1,88.4 135.1,87.5 134.2,87.5 134.2,86.6 133.3,86.6 133.3,85.7 132.4,85.7 132.4,84.9 130.7,84.9 130.7,85.7 128,85.7
 	128,86.6 125.4,86.6 126.3,86.6 126.3,85.7 127.1,85.7 126.3,85.7 126.3,84.9 127.1,84.9 127.1,84 127.1,82.2 126.3,82.2
@@ -376,11 +376,11 @@
 	143.9,100.7 143.9,99.9 143,99.9 143,99 142.1,99 142.1,98 143,97.2 142.1,97.2 142.1,96.3 141.2,96.3 141.2,95.4 141.2,94.5
 	142.1,94.5 142.1,93.7 143,93.7 142.1,93.7 142.1,92.8 140.3,92.8 140.3,93.7 139.5,93.7 139.5,92.8 139.5,91.9 138.6,91.9
 	138.6,91 139.5,91 139.5,89.2 "></polyline>
-            <g>
+                <g>
 <text transform="matrix(1 0 0 1 158.8887 72.0918)" class="st1 st2">৪</text>
 </g>
 </a>
-          <a href="../seat/228">
+              <a href="../seat/228">
 <polyline id="seat_228" class="st0" points="224.9,33.8 224.9,32.9 225.8,32 226.7,32 226.7,31.1 227.5,31.1 227.5,32 228.4,32 228.4,31.1
 	230.2,31.1 230.2,32 230.2,31.1 231,31.1 231,32 231,31.1 230.2,31.1 230.2,30.2 229.3,30.2 229.3,29.4 230.2,29.4 230.2,28.5
 	231,27.6 231,26.7 231.9,26.7 234.6,26.7 235.5,26.7 236.4,25.9 241.7,25.9 241.7,25 243.4,25 244.3,25.9 244.3,27.6 243.4,27.6
@@ -447,56 +447,56 @@
 	204.6,48.8 204.6,47.8 204.6,44.3 203.8,44.3 203.8,43.5 204.6,43.5 205.5,42.6 209.1,42.6 209.1,41.7 210.8,41.7 210.8,40.8
 	210.8,39 211.7,39 211.7,37.3 210.8,37.3 210.8,36.4 211.7,36.4 211.7,37.3 212.6,37.3 217,37.3 217,36.4 221.4,36.4 221.4,35.5
 	224.9,35.5 224.9,34.7 224.9,33.8 "></polyline>
-            <g>
+                <g>
 <text transform="matrix(1 0 0 1 230.4463 121.8545)" class="st1 st2">৫</text>
 </g>
 </a>
 </svg>
-      </div>
-    </div>
-
-    <h3 style="padding: 2rem 0 1rem 0">কেন্দ্রের সর্বশেষ প্রকাশিত ফলাফল</h3>
-    <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="margin-top: 3px;height:230px">
-
-            <h5 class="card-title"
-                style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
-                class="glyphicon glyphicon-info-sign"></span>কেন্দ্রের হালনাগাদ </h5>
-            <div style="padding: 20px; font-size:12px ">
-              <div class="row1">
-                <label for="inputason21">মোট কেন্দ্র</label>
-                <h6 id="inputason21" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
-              </div>
-              <div class="row2">
-                <label for="inputason22">প্রাপ্ত কেন্দ্র</label>
-                <h6 id="inputason22" style="float: right; margin-right: -68px"> ৭৪৬৪৫৬ </h6>
-              </div>
-              <div class="row3">
-                <label for="inputason23">অপ্রকাশিত কেন্দ্র</label>
-                <h6 id="inputason23" style="float: right; margin-right: -70px"> ৭৪৬৪৫৬ </h6>
-              </div>
-              <div class="row3">
-                <label for="inputason24">স্থাপিত কেন্দ্র</label>
-                <h6 id="inputason24" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
-              </div>
-            </div>
-
           </div>
         </div>
-        <div class="col-md-8">
-          <!--pie chart-->
-          <div class="chart-container5">
-            <canvas id="chart4"></canvas>
-          </div>
-      </div>
-    </div>
-    <div style="padding-top: 5rem">
-      <!--bar chart-->
 
-<!--      <div id="chart"></div>-->
-    </div>
-  </div>
+        <h3 style="padding: 2rem 0 1rem 0">কেন্দ্রের সর্বশেষ প্রকাশিত ফলাফল</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="margin-top: 3px;height:230px">
+
+              <h5 class="card-title"
+                  style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
+                  class="glyphicon glyphicon-info-sign"></span>কেন্দ্রের হালনাগাদ </h5>
+              <div style="padding: 20px; font-size:12px ">
+                <div class="row1">
+                  <label for="inputason21">মোট কেন্দ্র</label>
+                  <h6 id="inputason21" style="float: right; margin-right: 5px"> ৪৩২৫৬ </h6>
+                </div>
+                <div class="row2">
+                  <label for="inputason22">প্রাপ্ত কেন্দ্র</label>
+                  <h6 id="inputason22" style="float: right; margin-right: -68px"> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row3">
+                  <label for="inputason23">অপ্রকাশিত কেন্দ্র</label>
+                  <h6 id="inputason23" style="float: right; margin-right: -70px"> ৭৪৬৪৫৬ </h6>
+                </div>
+                <div class="row3">
+                  <label for="inputason24">স্থাপিত কেন্দ্র</label>
+                  <h6 id="inputason24" style="float: right; margin-right: -71px"> ৭৪৬৪৫৬ </h6>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-8">
+            <!--pie chart-->
+            <div class="chart-container5">
+              <canvas id="chart4"></canvas>
+            </div>
+          </div>
+        </div>
+        <div style="padding-top: 5rem">
+          <!--bar chart-->
+
+          <!--      <div id="chart"></div>-->
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -505,7 +505,7 @@
 
 import HeaderComponent from "@/pages/pageComponents/Header";
 import SidebarComponent from "@/pages/pageComponents/Sidebar";
-import $ from 'jquery';
+import sideb from "@/pages/sidebar";
 
 export default {
   name: "ResultPage",
@@ -514,186 +514,7 @@ export default {
     HeaderComponent
   },
   mounted() {
-    $(function() {
-
-
-
-      $(function() {
-        $("#menu").metisMenu()
-      })
-
-
-      $(".nav-toggle-icon").on("click", function() {
-        $(".wrapper").toggleClass("toggled")
-      })
-
-      $(".mobile-menu-button").on("click", function() {
-        $(".wrapper").addClass("toggled")
-      })
-
-      $(function() {
-        for (var e = window.location, o = $(".metismenu li a").filter(function() {
-          return this.href == e
-        }).addClass("").parent().addClass("mm-active"); o.is("li");) o = o.parent("").addClass("mm-show").parent("").addClass("mm-active")
-      })
-
-
-      $(".toggle-icon").click(function() {
-        $(".wrapper").hasClass("toggled") ? ($(".wrapper").removeClass("toggled"), $(".sidebar-wrapper").unbind("hover")) : ($(".wrapper").addClass("toggled"), $(".sidebar-wrapper").hover(function() {
-          $(".wrapper").addClass("sidebar-hovered")
-        }, function() {
-          $(".wrapper").removeClass("sidebar-hovered")
-        }))
-      })
-
-      $(".btn-mobile-filter").on("click", function() {
-        $(".filter-sidebar").removeClass("d-none");
-      }),
-
-          $(".btn-mobile-filter-close").on("click", function() {
-            $(".filter-sidebar").addClass("d-none");
-          }),
-
-
-
-
-          $(".mobile-search-button").on("click", function() {
-
-            $(".searchbar").addClass("full-search-bar")
-
-          }),
-
-          $(".search-close-icon").on("click", function() {
-
-            $(".searchbar").removeClass("full-search-bar")
-
-          }),
-
-
-
-
-          $(document).ready(function() {
-            $(window).on("scroll", function() {
-              $(this).scrollTop() > 300 ? $(".back-to-top").fadeIn() : $(".back-to-top").fadeOut()
-            }), $(".back-to-top").on("click", function() {
-              return $("html, body").animate({
-                scrollTop: 0
-              }, 600), !1
-            })
-          })
-
-
-
-
-      $(".dark-mode-icon").on("click", function() {
-
-        if($(".mode-icon ion-icon").attr("name") == 'sunny-sharp') {
-          $(".mode-icon ion-icon").attr("name", "moon-sharp");
-          $("html").attr("class", "light-theme")
-        } else {
-          $(".mode-icon ion-icon").attr("name", "sunny-sharp");
-          $("html").attr("class", "dark-theme")
-        }
-
-      }),
-
-
-
-
-
-// Theme switcher
-
-          $("#LightTheme").on("click", function() {
-            $("html").attr("class", "light-theme")
-          }),
-
-          $("#DarkTheme").on("click", function() {
-            $("html").attr("class", "dark-theme")
-          }),
-
-          $("#SemiDark").on("click", function() {
-            $("html").attr("class", "semi-dark")
-          }),
-
-
-// headercolor colors
-
-          $("#headercolor1").on("click", function() {
-            $("html").addClass("color-header headercolor1"), $("html").removeClass("headercolor2 headercolor3 headercolor4 headercolor5 headercolor6 headercolor7 headercolor8")
-          }), $("#headercolor2").on("click", function() {
-        $("html").addClass("color-header headercolor2"), $("html").removeClass("headercolor1 headercolor3 headercolor4 headercolor5 headercolor6 headercolor7 headercolor8")
-      }), $("#headercolor3").on("click", function() {
-        $("html").addClass("color-header headercolor3"), $("html").removeClass("headercolor1 headercolor2 headercolor4 headercolor5 headercolor6 headercolor7 headercolor8")
-      }), $("#headercolor4").on("click", function() {
-        $("html").addClass("color-header headercolor4"), $("html").removeClass("headercolor1 headercolor2 headercolor3 headercolor5 headercolor6 headercolor7 headercolor8")
-      }), $("#headercolor5").on("click", function() {
-        $("html").addClass("color-header headercolor5"), $("html").removeClass("headercolor1 headercolor2 headercolor4 headercolor3 headercolor6 headercolor7 headercolor8")
-      }), $("#headercolor6").on("click", function() {
-        $("html").addClass("color-header headercolor6"), $("html").removeClass("headercolor1 headercolor2 headercolor4 headercolor5 headercolor3 headercolor7 headercolor8")
-      }), $("#headercolor7").on("click", function() {
-        $("html").addClass("color-header headercolor7"), $("html").removeClass("headercolor1 headercolor2 headercolor4 headercolor5 headercolor6 headercolor3 headercolor8")
-      }), $("#headercolor8").on("click", function() {
-        $("html").addClass("color-header headercolor8"), $("html").removeClass("headercolor1 headercolor2 headercolor4 headercolor5 headercolor6 headercolor7 headercolor3")
-      })
-
-
-// sidebar colors
-      $('#sidebarcolor1').click(theme1);
-      $('#sidebarcolor2').click(theme2);
-      $('#sidebarcolor3').click(theme3);
-      $('#sidebarcolor4').click(theme4);
-      $('#sidebarcolor5').click(theme5);
-      $('#sidebarcolor6').click(theme6);
-      $('#sidebarcolor7').click(theme7);
-      $('#sidebarcolor8').click(theme8);
-
-      function theme1() {
-        $('html').attr('class', 'color-sidebar sidebarcolor1');
-      }
-
-      function theme2() {
-        $('html').attr('class', 'color-sidebar sidebarcolor2');
-      }
-
-      function theme3() {
-        $('html').attr('class', 'color-sidebar sidebarcolor3');
-      }
-
-      function theme4() {
-        $('html').attr('class', 'color-sidebar sidebarcolor4');
-      }
-
-      function theme5() {
-        $('html').attr('class', 'color-sidebar sidebarcolor5');
-      }
-
-      function theme6() {
-        $('html').attr('class', 'color-sidebar sidebarcolor6');
-      }
-
-      function theme7() {
-        $('html').attr('class', 'color-sidebar sidebarcolor7');
-      }
-
-      function theme8() {
-        $('html').attr('class', 'color-sidebar sidebarcolor8');
-      }
-
-
-      // new PerfectScrollbar(".header-notifications-list")
-
-
-      // Tooltops
-      $(function () {
-        $('[data-bs-toggle="tooltip"]').tooltip();
-      })
-
-
-
-
-
-
-    });
+    sideb()
   }
 }
 </script>

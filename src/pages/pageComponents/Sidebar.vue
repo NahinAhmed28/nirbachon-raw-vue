@@ -67,7 +67,8 @@
 
 <script>
 export default {
-  name: "SidebarComponent"
+  name: "SidebarComponent",
+
 }
 </script>
 
