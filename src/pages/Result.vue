@@ -7,9 +7,10 @@
     <!-- start page content-->
     <div class="page-content">
       <div class="container" style="padding-top: 2rem;">
+        <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
         <div class="row">
-          <div class="col-md-4" style="margin-top: 15px">
-            <h2>আসন নং ৩৩ঃ গাইবান্ধা ৫</h2>
+          <div class="col-md-4" >
+
             <div class="card" style="height:230px ">
               <h5 class="card-title"
                   style="background:#5f57c9;color: white; margin-top: 0px;padding: 10px;font-weight: bold ">
@@ -44,7 +45,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="card" style="margin-top: 61px ;height:230px">
+            <div class="card" style="height:230px">
 
               <h5 class="card-title"
                   style="background:#5f57c9;color: white;margin-top: 0px;padding: 10px ;font-weight: bold "><span
