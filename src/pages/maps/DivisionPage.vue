@@ -5101,14 +5101,14 @@
 
             <div class="card" style="border-radius: 1rem">
               <h5 class="card-title cardTitle" >
-                <form class="form-inline" action="result_detail.html">
+                <form class="form-inline" action="#">
                   <input class="form-control  ml-auto mr-auto searchText" id="search" type="search"
                          placeholder="&#61442; কেন্দ্রের নাম" aria-label="Search">
                 </form>
               </h5>
 
               <div class="card-body">
-                <form action="result_detail.html">
+                <form action="#">
                   <div class="form-group row">
                     <label for="input41" class="col-sm-3 col-form-label">বিভাগ</label>
                     <div class="col-sm-9">
@@ -5171,30 +5171,30 @@
                 <span class="glyphicon glyphicon-info-sign"></span>সর্বশেষ প্রকাশিত ফলাফল</h5>
               <div class="card-body">
                 <ul class="nav nav-pills nav-stacked" style="height:150px; overflow-y: scroll;">
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল </a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
-                  <li class="nav-item"><a class="nav-link" href="result_detail.html">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">ঢাকা আসন নাম্বার ১ এর ৮৩ নং কেন্দ্রের ফলাফল</a></li>
                 </ul>
               </div>
             </div>
