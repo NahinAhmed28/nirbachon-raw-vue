@@ -1,6 +1,6 @@
 <template>
 
-  <div class="wrapper">
+  <div class="wrapper ">
     <!-- start page content wrapper-->
     <div class="page-content-wrapper">
       <slot></slot>
