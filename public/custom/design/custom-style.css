@@ -287,14 +287,14 @@
 #Layer_Z{
 
     width: 720px !important;
-    border: 1px solid #b79ce7;
+    /*border: 1px solid #b79ce7;*/
     border-radius: 25px;
     margin-bottom: 15px;
 }
 #layer_D{
     height: 1000px;
     width: 720px !important;
-    border: 1px solid #b79ce7;
+    /*border: 1px solid #b79ce7;*/
     border-radius: 25px
 }
 @media screen and (max-width: 600px) {

@@ -28,12 +28,12 @@ const routes = [
         component: RegisterPage
     },
     {
-        path: '/dashboardAgent',
+        path: '/dashboard-agent',
         name: 'DashboardAgentPage',
         component: DashboardAgentPage
     },
     {
-        path: '/dashboardStaff',
+        path: '/dashboard-staff',
         name: 'DashboardStaffPage',
         component: DashboardStaffPage
     },
