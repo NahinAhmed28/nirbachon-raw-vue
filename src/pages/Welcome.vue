@@ -6,23 +6,6 @@
     <SidebarComponent/>
     <HeaderComponent />
 
-    <RouterLink to="/dashboardAgent">
-      DashBoard-Agent
-    </RouterLink>
-    <RouterLink to="/login">
-      Login
-    </RouterLink>
-    <RouterLink to="/dashboardStaff">
-      DashBoard-Staff
-    </RouterLink>
-    <RouterLink to="/result">
-      Result
-    </RouterLink>
-    <RouterLink to="/register">
-      Register
-    </RouterLink>
-
-
     <division-page/>
   </WrapperComponent>
 

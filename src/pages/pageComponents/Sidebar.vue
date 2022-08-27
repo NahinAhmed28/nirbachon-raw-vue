@@ -26,11 +26,11 @@
           <div class="menu-title">ম্যাপস</div>
         </a>
         <ul>
-          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</a>
+          <li> <RouterLink to="/divisionpage"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</RouterLink>
           </li>
-          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>জেলা</a>
+          <li> <RouterLink to="/zillapage"><ion-icon name="ellipse-outline"></ion-icon>জেলা</RouterLink>
           </li>
-          <li> <a href="#"><ion-icon name="ellipse-outline"></ion-icon>আসন</a>
+          <li> <RouterLink to="/"><ion-icon name="ellipse-outline"></ion-icon>আসন</RouterLink>
           </li>
 
 

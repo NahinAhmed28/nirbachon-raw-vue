@@ -1,5 +1,8 @@
 <template>
-  <div class="container">
+  <WrapperComponent>
+    <SidebarComponent/>
+    <HeaderComponent/>
+    <div class="container">
 
     <section>
       <div class="map" style="padding-top: 2rem">
@@ -1383,7 +1386,7 @@
                   <div class="form-group row" style="margin-top: -1rem">
                     <label for="input44" class="col-sm-3 col-form-label"></label>
                     <div class="col-sm-9">
-                      <button class="btn btn-block mb-3"
+                      <button class="btn btn-block mb-3 mt-4"
                               style="background-color: #5f7fee;color: white" type="button">ফলাফল দেখুন
                       </button>
                     </div>
@@ -1446,11 +1449,21 @@
       </div>
     </section>
   </div>
+  </WrapperComponent>
 </template>
 
 <script>
+import WrapperComponent from "@/pages/pageComponents/Wrapper";
+import SidebarComponent from "@/pages/pageComponents/Sidebar";
+import HeaderComponent from "@/pages/pageComponents/Header";
 export default {
-  name: "ZillaPage"
+  name: "ZillaPage",
+  components: {
+    // ZillaPage,
+    WrapperComponent,
+    SidebarComponent,
+    HeaderComponent
+  },
 }
 </script>
 

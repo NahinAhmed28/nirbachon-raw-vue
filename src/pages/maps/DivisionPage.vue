@@ -1,4 +1,7 @@
 <template>
+  <WrapperComponent>
+    <SidebarComponent/>
+    <HeaderComponent/>
   <div class="container">
 
     <section >
@@ -5221,11 +5224,22 @@
     </section>
 
   </div>
+  </WrapperComponent>
 </template>
 
 <script>
+import WrapperComponent from "@/pages/pageComponents/Wrapper";
+import SidebarComponent from "@/pages/pageComponents/Sidebar";
+import HeaderComponent from "@/pages/pageComponents/Header";
+
 export default {
-  name: "DivisionPage"
+  name: "DivisionPage",
+  components: {
+    // ZillaPage,
+    WrapperComponent,
+    SidebarComponent,
+    HeaderComponent
+  },
 }
 </script>
 
