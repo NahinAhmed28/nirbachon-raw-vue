@@ -123,12 +123,12 @@
               <div>
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-md-6" style="margin-left: -3rem">
-                      <div id="chart2"></div>
-                    </div>
-                    <div class="col-md-6" style="margin-left: -1rem">
-                      <div id="chart3"></div>
-                    </div>
+
+                      <apexchart type="pie"  :options="chartOptionsS1" :colors="colors" :series="series"></apexchart>
+
+
+                      <apexchart type="pie"  :options="chartOptionsS2" :colors="colors2" :series="series2"></apexchart>
+
                   </div>
                 </div>
               </div>
@@ -158,9 +158,71 @@ import HeaderComponent from "@/pages/pageComponents/Header";
 import DivisionPage from "@/pages/maps/DivisionPage";
 import sideb from "@/pages/sidebar";
 
-
+import VueApexCharts from "vue3-apexcharts";
 
 export default {
+  data: function() {
+    return {
+      series:  [2.3, 3.1, 4.0, 10.1],
+      colors: [ // this array contains different color code for each data
+        "#33b2df",
+        "#546E7A",
+        "#d4526e",
+        "#13d8aa",
+        "#A5978B",
+        "#2b908f",
+        "#f9a3a4",
+        "#90ee7e",
+        "#f48024",
+        "#69d2e7"
+      ],
+      chartOptionsS1: {
+        chart: {
+          width: 100,
+          type: 'pie',
+        },
+        legend: {
+          position: 'bottom'
+        },
+        labels: ['আওয়ামীলীগ', 'বিএনপি', 'জাতীয় পার্টি', 'অন্যান্য'],
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+      },
+      series2: [20, 40, 40],
+      colors2:['#F44336', '#E91E63', '#9C27B0','#69d2e7'],
+      chartOptionsS2: {
+        chart: {
+          width: 200,
+          type: 'pie',
+        },
+        legend: {
+          position: 'bottom'
+        },
+        labels: ['প্রকাশিত কেন্দ্র', 'স্থাপিত কেন্দ্র', 'অপ্রকাশিত কেন্দ্র'],
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 280
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+      },
+
+    }
+  },
   name: 'LandingWelcome',
   props: {
     msg: String
@@ -169,7 +231,8 @@ export default {
     WrapperComponent,
     SidebarComponent,
     HeaderComponent,
-    DivisionPage
+    DivisionPage,
+    apexchart: VueApexCharts,
   },
   mounted() {
     sideb()
