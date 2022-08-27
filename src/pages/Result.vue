@@ -1,6 +1,5 @@
 <template>
-  <WrapperComponent>
-  <SidebarComponent/>
+
   <HeaderComponent/>
   <!-- start page content wrapper-->
   <div class="page-content-wrapper">
@@ -502,14 +501,14 @@
     </div>
   </div>
 
-  </WrapperComponent>
+
 </template>
 
 <script>
 
 import HeaderComponent from "@/pages/pageComponents/Header";
-import SidebarComponent from "@/pages/pageComponents/Sidebar";
-import WrapperComponent from "@/pages/pageComponents/Wrapper"
+// import SidebarComponent from "@/pages/pageComponents/Sidebar";
+// import WrapperComponent from "@/pages/pageComponents/Wrapper"
 import sideb from "@/pages/sidebar";
 
 import VueApexCharts from "vue3-apexcharts";
@@ -593,8 +592,8 @@ export default {
   },
   name: "ResultPage",
   components: {
-    WrapperComponent,
-    SidebarComponent,
+    // WrapperComponent,
+    // SidebarComponent,
     HeaderComponent,
     apexchart: VueApexCharts,
 
