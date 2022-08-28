@@ -15,9 +15,7 @@
               <DivisionPage />
               </div>
             </div>
-
           <HomepageRightSide />
-
           </div>
         </div>
       </section>

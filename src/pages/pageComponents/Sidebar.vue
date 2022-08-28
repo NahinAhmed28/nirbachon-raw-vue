@@ -4,7 +4,6 @@
 
   <aside class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
-
       <div>
         <RouterLink to="/">
         <img src="/custom/design/img/eru-logo.png" class="logo-icon" alt="logo icon">
@@ -15,7 +14,6 @@
         <img src="/custom/design/img/eru-logo-text.png" style="width: 80%" alt="logo icon">
         </RouterLink>
       </div>
-
       <div class="toggle-icon ms-auto"><ion-icon name="menu-sharp"></ion-icon>
       </div>
     </div>
@@ -41,8 +39,6 @@
           <li>
             <RouterLink to="/asonpage"><ion-icon name="ellipse-outline"></ion-icon>আসন</RouterLink>
           </li>
-
-
         </ul>
       </li>
       <li>
@@ -70,15 +66,12 @@
           </li>
         </ul>
       </li>
-
     </ul>
     <!--end navigation-->
   </aside>
-
   <!--end sidebar -->
 </div>
 </template>
-
 <script>
 export default {
   name: "SidebarComponent",

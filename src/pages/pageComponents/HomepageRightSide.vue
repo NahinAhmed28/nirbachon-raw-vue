@@ -1,6 +1,5 @@
 <template>
   <div class="col-md-4">
-
     <div class="card">
       <h5 class="card-title "
           style="background:#5f57c9;color: white; margin-top: 0px;padding: 10px;font-weight: bold ">
@@ -9,7 +8,6 @@
                  placeholder="কেন্দ্রের নাম" aria-label="Search">
         </form>
       </h5>
-
       <div class="card-body">
         <form action="result_detail.html">
           <div class="form-group row">
@@ -67,8 +65,6 @@
         </form>
       </div>
     </div>
-
-
     <div class="card" style="margin-top: 1rem;">
       <h5 class="card-title"
           style="background:mediumpurple;color: white; margin-top: 0px;padding: 10px;font-weight: bold">
@@ -102,7 +98,6 @@
         </ul>
       </div>
     </div>
-
     <div>
       <div class="card-body">
         <div class="row">
