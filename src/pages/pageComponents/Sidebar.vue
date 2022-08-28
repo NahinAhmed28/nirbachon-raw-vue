@@ -11,7 +11,9 @@
         </RouterLink>
       </div>
       <div>
+        <RouterLink to="/">
         <img src="/custom/design/img/eru-logo-text.png" style="width: 80%" alt="logo icon">
+        </RouterLink>
       </div>
 
       <div class="toggle-icon ms-auto"><ion-icon name="menu-sharp"></ion-icon>
@@ -26,11 +28,18 @@
           <div class="menu-title">ম্যাপস</div>
         </a>
         <ul>
-          <li> <RouterLink to="/"><ion-icon name="ellipse-outline"></ion-icon>বিভাগ</RouterLink>
+          <li>
+            <RouterLink to="/">
+              <ion-icon name="ellipse-outline"></ion-icon>বিভাগ
+            </RouterLink>
           </li>
-          <li> <RouterLink to="/zillapage"><ion-icon name="ellipse-outline"></ion-icon>জেলা</RouterLink>
+          <li>
+            <RouterLink to="/zillapage">
+              <ion-icon name="ellipse-outline"></ion-icon>জেলা
+            </RouterLink>
           </li>
-          <li> <RouterLink to="/asonpage"><ion-icon name="ellipse-outline"></ion-icon>আসন</RouterLink>
+          <li>
+            <RouterLink to="/asonpage"><ion-icon name="ellipse-outline"></ion-icon>আসন</RouterLink>
           </li>
 
 

@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router'
 
 
-
 require('metismenu');
 require('apexcharts');
 
