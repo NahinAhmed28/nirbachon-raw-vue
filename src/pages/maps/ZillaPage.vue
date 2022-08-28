@@ -1,13 +1,13 @@
 <template>
-  <WrapperComponent>
-    <SidebarComponent/>
-    <HeaderComponent/>
-    <div class="container">
-    <section>
-      <div class="map" style="padding-top: 2rem">
-        <div class="row">
-          <div class="col-md-8 mapView">
-            <div class="container-index-maps ">
+<!--  <WrapperComponent>-->
+<!--    <SidebarComponent/>-->
+<!--    <HeaderComponent/>-->
+<!--    <div class="container">-->
+<!--    <section>-->
+<!--      <div class="map" style="padding-top: 2rem">-->
+<!--        <div class="row">-->
+<!--          <div class="col-md-8 mapView">-->
+<!--            <div class="container-index-maps ">-->
               <svg version="1.1" id="Layer_Z" xmlns="http://www.w3.org/2000/svg"
                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 1000"
                    xml:space="preserve">
@@ -1322,33 +1322,33 @@
                   <text transform="matrix(1 0 0 1 491.7 649.9847)" class="st1 st2">নোয়াখালী</text>
 </a>
 </svg>
-            </div>
-          </div>
-          <HomepageRightSide />
-        </div>
-      </div>
-    </section>
-  </div>
-  </WrapperComponent>
+<!--            </div>-->
+<!--          </div>-->
+<!--          <HomepageRightSide />-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+<!--  </div>-->
+<!--  </WrapperComponent>-->
 </template>
 
 <script>
-import WrapperComponent from "@/pages/pageComponents/Wrapper";
-import SidebarComponent from "@/pages/pageComponents/Sidebar";
-import HeaderComponent from "@/pages/pageComponents/Header";
-import sideb from "@/pages/sidebar";
-import HomepageRightSide from "@/pages/pageComponents/HomepageRightSide";
+// import WrapperComponent from "@/pages/pageComponents/Wrapper";
+// import SidebarComponent from "@/pages/pageComponents/Sidebar";
+// import HeaderComponent from "@/pages/pageComponents/Header";
+// import sideb from "@/pages/sidebar";
+// import HomepageRightSide from "@/pages/pageComponents/HomepageRightSide";
 export default {
   name: "ZillaPage",
   components: {
     // ZillaPage,
-    WrapperComponent,
-    SidebarComponent,
-    HeaderComponent,
-    HomepageRightSide,
+    // WrapperComponent,
+    // SidebarComponent,
+    // HeaderComponent,
+    // HomepageRightSide,
   },
   async mounted() {
-     sideb()
+     // sideb()
   }
 }
 </script>
