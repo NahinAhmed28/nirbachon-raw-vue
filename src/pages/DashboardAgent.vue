@@ -13,7 +13,7 @@
           <div class="card">
                   <div class="card-body">
                     <div class="border p-3 rounded">
-                      <h6 class="mb-0 text-uppercase">ফলাফল জমা দিন</h6>
+                      <h3 class="mb-0 text-uppercase">ফলাফল জমা দিন</h3>
                       <hr>
                       <form class="row g-3">
                         <div class="col-12">
@@ -62,6 +62,73 @@
                         <div class="col-12">
                           <label class="form-label">শতকরা হার</label>
                           <input type="text" class="form-control">
+                        </div>
+                        <div class="col-12">
+                          <div>
+                            <!-- Default checked radio -->
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                     id="flexRadioDefault1"/>
+                              <label class="form-check-label" for="flexRadioDefault1">অফিসিয়াল
+                                ফলাফল</label>
+                            </div>
+                          </div>
+
+                          <div>
+                            <!-- Default checked radio -->
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                     id="flexRadioDefault2" checked/>
+                              <label class="form-check-label" for="flexRadioDefault2">বেসরকারি
+                                ফলাফল</label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                        <div class="row">
+                          <div class="col-md-2 pt-2">
+                            রাজনৈতিক দল
+                          </div>
+                          <div class="col-md-10">
+                            <div class="form-group row">
+                              <div class="col-12">
+                              <label for="inputx10" class="col-sm-3 col-form-label">দলের নাম</label>
+                              <div class="col-sm-12">
+                                <input type="email" class="form-control" id="inputx10"
+                                       aria-describedby="emailHelp" placeholder="" disabled>
+                              </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <div class="col-12">
+                              <label for="inputx11" class="col-sm-3 col-form-label">প্রার্থীর নাম</label>
+                              <div class="col-sm-12">
+                                <input type="email" class="form-control" id="inputx11"
+                                       aria-describedby="emailHelp" placeholder="" disabled>
+                              </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <div class="col-12">
+                              <label class="col-sm-3 col-form-label">প্রার্থীর ছবি</label>
+                              <div class="col-sm-12">
+                                <img src="https://png.pngtree.com/png-clipart/20190924/original/pngtree-user-vector-avatar-png-image_4830521.jpg"
+                                     alt="..." style="width: 200px; height: 200px" class="img-thumbnail">
+                              </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <div class="col-12">
+                              <label for="inputx13" class="col-sm-3 col-form-label">ভোট</label>
+                              <div class="col-sm-12">
+                                <input type="number" class="form-control" id="inputx13"
+                                       aria-describedby="emailHelp" placeholder="">
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         </div>
                         <div class="col-12">
                           <div class="d-grid">
@@ -343,5 +410,4 @@ export default {
   }
 }
 </script>
-
 
